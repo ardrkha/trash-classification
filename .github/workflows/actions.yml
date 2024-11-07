@@ -27,8 +27,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install nbconvert
+
+      - name: Convert Notebook to Script
+        run: |
+          jupyter nbconvert --to python trash_classification.ipynb
+          ls -lah
+
           
       - name: execute ipynb script # run trash_classification.ipynb
         run: | 
-          jupyter nbconvert --to python trash_classification.ipynb
           python trash_classification.ipynb
