@@ -8,7 +8,7 @@ The goal of this project is to build a machine learning model that can classify 
 
 ## Dataset
 
-The dataset used for this project is **TrashNet**, a labeled collection of images of different types of trash. We load this dataset using the [Hugging Face Datasets library](https://huggingface.co/docs/datasets).
+The dataset used for this project is **TrashNet**, a labeled collection of images of different types of trash. I load this dataset using the [Hugging Face Datasets library](https://huggingface.co/docs/datasets).
 The dataset includes the following classes:
 - Plastic
 - Metal
